@@ -1,0 +1,46 @@
+RewriteEngine On
+
+# No-WWW
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# GigaPan Desktop
+Redirect 302 /projects/gigapan/GigaPanDesktop.air http://open-zoom.googlecode.com/files/GigaPanDesktop-0.2.air
+Redirect 302 /go/gigapan http://open-zoom.googlecode.com/files/GigaPanDesktop-0.2.air
+
+# Community
+Redirect 302 /go/community http://community.openzoom.org
+
+# Code
+Redirect 302 /go/code http://github.com/openzoom
+
+# Issues
+Redirect 302 /go/issues http://github.com/openzoom/sdk/issues
+
+# Downloads
+
+# OpenZoom SDK
+Redirect 302 /sdk/download/latest/zip http://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip
+Redirect 302 /sdk/download/0.4.2.1/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.1.zip
+Redirect 302 /sdk/download/0.4.2/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.zip
+Redirect 302 /sdk/download/0.4.2.1/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.1.zip
+
+# OpenZoom Tango
+Redirect 302 /tango/download/latest/zip http://github.com/downloads/openzoom/tango/openzoom-tango-0.7.1.zip
+Redirect 302 /tango/download/0.7.1/zip http://github.com/downloads/openzoom/tango/openzoom-tango-0.7.1.zip
+Redirect 302 /tango/download/0.5.2/zip http://open-zoom.googlecode.com/files/openzoom-tango-0.5.2.zip
+Redirect 302 /tango/download/0.3/zip http://open-zoom.googlecode.com/files/openzoom-tango-0.3.zip
+Redirect 302 /tango/download/0.2.1/zip http://open-zoom.googlecode.com/files/openzoom-tango-0.2.1.zip
+
+# Zoom.it ActionScript 3 SDK
+Redirect 302 /zoomit-as3-sdk/download/latest/zip http://github.com/downloads/openzoom/zoomit-as3-sdk/zoomit-as3-sdk-0.8.zip
+Redirect 302 /zoomit-as3-sdk/download/0.8/zip http://github.com/downloads/openzoom/zoomit-as3-sdk/zoomit-as3-sdk-0.8.zip
+
+# Projects
+Redirect 301 /projects/monad http://openzoom.org/monad
+Redirect 301 /projects/dourado http://openzoom.org/dourado
+Redirect 302 /projects/taishet http://gasi.ch/blog/inline-multiscale-image-replacement/
+Redirect 302 /taishet http://gasi.ch/blog/inline-multiscale-image-replacement/
+Redirect 302 /endo http://gasi.ch/blog/inline-multiscale-image-replacement/
+Redirect 302 /tango http://gasi.ch/blog/pimp-your-photoshop-zoomify-with-openzoom/
+Redirect 302 /specs http://gasi.ch/blog/openzoom-description-format/
