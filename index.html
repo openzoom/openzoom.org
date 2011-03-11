@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>OpenZoom: Promoting and Supporting High-Resolution Images &amp; Zoomable User Interfaces (ZUIs) on the Web</title>
+    <meta name="description" content="OpenZoom: Promoting and Supporting High-Resolution Images &amp; Zoomable User Interfaces (ZUIs) on the Web."/>
+    <meta name="keywords" content="openzoom, zooming, web, images, photos, web, high-resolution, multi-scale, multi-resolution, zui, zoomable user interface, zooming user interface, adobe, flash, flex, SDK, framework, opensource, open, gasi, AIR, adobe, multiscale"/>
+    <meta name="copyright" content="Copyright (c) 2007-2010, Daniel Gasienica"/>
+    <meta name="author" content="Daniel Gasienica"/>
+    <meta name="language" content="en"/>
+    
+    <meta http-equiv="content-style-type" content="text/css"/>
+    <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>-->
+    <link rel="stylesheet" href="styles/global.css" type="text/css" media="screen"/>
+
+    <!-- Get Satisfaction -->
+    <style type='text/css'>@import url('http://s3.amazonaws.com/getsatisfaction.com/feedback/feedback.css');</style>
+    <script src='http://s3.amazonaws.com/getsatisfaction.com/feedback/feedback.js' type='text/javascript'></script>
+    <script type="text/javascript" charset="utf-8">
+        var tab_options = {}
+        tab_options.placement = "left";  // left, right, bottom, hidden
+        tab_options.color = "#222"; // hex (#FF1000) or color (red)
+        GSFN.feedback('http://getsatisfaction.com/openzoom/feedback/topics/new?display=overlay&style=idea', tab_options);
+    </script>
+
+    <!-- Google Analytics Tracker -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5667667-2']);
+        _gaq.push(['_setDomainName', '.openzoom.org']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+    <a href="http://github.com/openzoom/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+    <div id="header">
+        <a href="#"><img id="logo" src="images/logo-201x44.png" width="201" height="44" alt="OpenZoom"/></a>
+        <ul id="globalnav">
+            <li><a href="http://community.openzoom.org">Community &amp; Support</a></li>
+            <li><a href="http://docs.openzoom.org/sdk">Docs</a></li>
+            <li><a href="http://openzoom.org/go/code">Code &amp; Downloads</a></li>
+            <li><a href="http://gasi.ch/blog">Blog</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div id="content">
+            <h1 class="tagline">Sharing the Love of Zooming. Yours, <a href="http://twitter.com/openzoom/">@OpenZoom</a>.</h1>
+            <p class="lead">The OpenZoom Project promotes and supports the use of high-resolution images and Zoomable&nbsp;User&nbsp;Interfaces&nbsp;(ZUIs) on the web. OpenZoom provides toolkits, utilities and documentation to enable you to create great user experiences.</p>
+            <div><a style="float: left;" href="http://twitter.com/OpenZoom">Follow @OpenZoom on Twitter</a>. <a style="float:right;" href="http://www.facebook.com/pages/OpenZoom/53991200768">Become a fan of OpenZoom on Facebook.</a></div>
+            <div style="height: 280px; margin: 12px 0;">
+            <div id="twtr-search-widget" style="float:left;"></div>
+            <script src="http://widgets.twimg.com/j/1/widget.js"></script>
+            <link href="http://widgets.twimg.com/j/1/widget.css" type="text/css" rel="stylesheet">
+            <script>
+            new TWTR.Widget({
+              search: 'openzoom',
+              id: 'twtr-search-widget',
+              loop: true,
+              title: 'What\'s being said about...',
+              subject: 'OpenZoom',
+              width: 570,
+              height: 160,
+              theme: {
+                shell: {
+                  background: '#eeeeee',
+                  color: '#404040'
+                },
+                tweets: {
+                  background: '#ffffff',
+                  color: '#444444',
+                  links: '#0451c4'
+                }
+              }
+            }).render().start();
+            </script><div>
+             <script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
+             <script type="text/javascript">FB.init("0660ef3270d2dbb0e9fe081d6003b656");</script><fb:fan profile_id="53991200768" stream="" connections="10" width="300" style="float: right;"></fb:fan><div style="float: right; font-size:8px; padding-left:10px; clear: both;"><a href="http://www.facebook.com/pages/OpenZoom/53991200768">OpenZoom</a> on Facebook</div>
+             </div>
+             </div>
+
+            <h2>OpenZoom SDK</h2>
+            <p>The open source <strong>OpenZoom SDK</strong> is a toolkit for the <a href="http://www.adobe.com/flashplatform/">Adobe Flash Platform</a>
+               that enables you to easily build <a href="http://tandem.gasi.ch/">powerful applications</a>, <a href="http://www.albawater.com.vn/">beautiful sites</a>
+               and <a href="http://openzoom.org/webtrendmap/">stunning maps</a> which make use of the zooming metaphor and high-resolution images:
+               It is freely available under the <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL</a>/<a href="http://www.gnu.org/licenses/gpl-3.0.txt">GPL</a>/<a href="http://www.gnu.org/licenses/lgpl-3.0.txt">LGPL</a> trilicense.</p>
+            <ul>
+                <li><a href="http://gasi.ch/blog/openzoom-sdk/">Introduction &amp; Demos</a></li>
+                <li><a href="http://openzoom.org/sdk/download/latest/zip/">Download OpenZoom SDK for Flash, Flex &amp; AIR (Source Code &amp; Examples)</a></li>
+                <li><a href="http://docs.openzoom.org/sdk/">OpenZoom SDK API Reference</a></li>
+                <li><a href="http://openzoom.org/go/code">Browse Source Code</a></li>
+            </ul>
+            
+            <h2>Donations</h2>
+            <p>Support the future development of the <strong>OpenZoom SDK</strong> and other <strong>OpenZoom</strong> projects with a donation:</p> 
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
+            <input type="hidden" name="cmd" value="_s-xclick"> 
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----"> 
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> 
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"><br /> 
+            </form>
+
+            <h2>Showcase</h2>
+            <p>Sites &amp; projects powered by OpenZoom:</p>
+            <ul>
+                <li><a href="http://w4.siemens.com/windpark/" style="color: red;">Siemens Windpark (NEW!)</a></li>
+                <li><a href="http://ec.europa.eu/europeaid/climate-change-actions/">EU: Climate Actions for a Better Development</a></li>
+                <li><a href="http://www.willpearson.co.uk/high_resolution/">Will Pearson &ndash; Panoramic Photographer</a></li>
+                <li><a href="http://ee.uchicago.edu/gigapan/gigavision2/">GigaVision: Gigapixel Image Timelapse</a></li>
+                <li><a href="http://www.oostring.com/">Ole Østring</a></li>
+                <li><a href="http://www.deuterror.org/dtr.html">DEU TER ROR</a></li>
+                <li><a href="http://art.depotvisuals.de/">Depot Visuals Art</a></li>
+                <li><a href="http://viewer.mars.asu.edu/planetview/inst/ctx">Mars Image Explorer</a></li>
+                <li><a href="http://just.burgeff.de/">Just/Burgeff Architekten</a></li>
+                <li><a href="http://www.massagepraktijkzondag.nl/">Massagepraktijk Zondag in Eindhoven</a></li>
+                <li><a href="http://www.mockus.nl/">Mockus&hellip; Blijf Hangen!!!</a></li>
+                <li><a href="http://understandingdata.dlow.org/">Understanding Data &ndash; A dissertation by Henry Hadlow</a></li>
+                <li><a href="http://www.daveygant.com/">Davey Gant</a></li>
+                <li><a href="http://www.shawnold.com/theartist/index.html">Shawn Old</a></li>
+                <li><a href="http://www.flagthousand.com/">Flag Thousand</a></li>
+                <li><a href="http://www.timg.nl/index.html#/0">Tim Gillissen Photography</a></li>
+                <li><a href="http://gasi.ch/blog/openzoom-is-this-your-luggage/">OpenZoom, Is This Your Luggage</a></li>
+                <li><a href="http://www.gigapixelphotography.com">Gigapixel Photography</a></li>
+                <li><a href="http://www.albawater.com.vn">Alba Water</a></li>
+            </ul>
+
+            <h2>Developer Showcase</h2>
+            <p>Tools &amp; extensions for OpenZoom:</p>
+            <ul>
+                <li><a href="http://github.com/openzoom/deepzoom.py" style="color: green;">Python Deep Zoom Tools (official)</a></li>
+                <li><a href="http://github.com/openzoom/deepzoom.rb" style="color: green;">Ruby Deep Zoom Tools (official)</a></li>
+                <li><a href="http://search.cpan.org/dist/Graphics-DZI/" style="color: red;">Perl Deep Zoom Tools (new)</a></li>
+                <li><a href="http://github.com/openzoom/deepzoom.php">PHP Deep Zoom Tools</a></li>
+                <li><a href="http://code.google.com/p/deepjzoom">Java Deep Zoom Tools</a></li>
+                <li><a href="http://code.google.com/p/magicktiler/" style="color: red;">MagickTiler (new)</a></li>
+                <li><a href="http://github.com/gasi/deepzoom.hs" style="color: LightSlateGray;">Haskell Deep Zoom Tools (pre-alpha)</a></li>
+                <li><a href="http://ghostinteractive.net/blog/?p=334">Ghost Interactive Overlay Extension for OpenZoom SDK</a></li>
+                <li><a href="http://ghostinteractive.net/blog/?p=400">Overlay Extension: Examples</a></li>
+                <li><a href="http://code.google.com/p/ghostinteractive/">Overlay Extension: Download</a></li>
+            </ul>
+
+            <h2>Inline Multiscale Image Replacement</h2>
+            <p>Easily publish insanely large images on the web in a way that kinda doesn't suck:</p>
+            <ul>
+                <li><a href="http://gasi.ch/blog/inline-multiscale-image-replacement/">Inline Multiscale Image Replacement</a></li>
+            </ul>
+            
+            <h2>GigaPan Desktop &amp; GigaPan Mobile</h2>
+            <p>See the <a href="http://gigapan-mobile.appspot.com/gigapan/17217">1.47 Gigapixel Obama photo</a> on your desktop or iPhone/iPod touch/iPad:
+            <ul>
+                <li><a href="http://gasi.ch/blog/gigapan-desktop/">GigaPan Desktop</a></li>
+                <li><a href="http://gigapan-mobile.appspot.com/">GigaPan Mobile: GigaPan on iPhone, iPod touch &amp; iPad</a></li>
+            </ul>
+            
+            <h2>Zooming Community</h2>
+            <p>Got stuck while using the OpenZoom SDK? Want to give feedback on one of the OpenZoom projects? Want to share an idea you've had? Join the <a href="http://community.openzoom.org">OpenZoom community</a>.</p>
+            <p>Are you also in love with zooming and want to hang out with like-minded people? Join our <a href="http://grou.ps/zooming">Zooming community</a>. You'll be amongst people from <a href="http://livelabs.com/seadragon/">Microsoft Seadragon</a>, <a href="http://prezi.com/">Prezi</a>, <a href="http://zoomery.com/">Zoomery</a>, <a href="http://lila.io/">Lila.io</a>, <a href="http://mosaicmaniac.com/">Mosaic Maniac</a>, <a href="http://www.geogarage.com/">GeoGarage</a>, <a href="http://ghostinteractive.net/">Ghost Interactive</a>, <a href="http://zoomorama.com/">Zoomorama</a> and of course <a href="http://openzoom.org/">OpenZoom</a>.
+            <!--
+            <h2>Zooming Jobs</h2>
+            <p>Looking for people with insane zooming skills for a project? Send your job/project ad to <a href="http://twitter.com/zoomjobs">@zoomjobs</a>.
+            <p>You love zooming and want to work on awesome projects that are in desperate need of your zooming skills? Promote yourself &amp; your services on <a href="http://twitter.com/zoomjobs">@zoomjobs</a>.
+            -->
+            <h2>OpenZoom: Behind the Scenes</h2>
+            <p>Ever wondered how high-resolution images are delivered in a efficient and smooth way on the web? Learn more about the theory, principles and algorithms behind multi-scale imaging on the web in this three part series of how I brought Deep Zoom to Flash:</p>
+            <ul>
+                <li><a href="http://gasi.ch/blog/inside-deep-zoom-1/">Inside Deep Zoom &ndash; Part I: Multiscale Imaging</a></li>
+                <li><a href="http://gasi.ch/blog/inside-deep-zoom-2/">Inside Deep Zoom &ndash; Part II: Mathematical Analysis</a></li>
+                <li><a href="http://gasi.ch/blog/inside-deep-zoom-3/">Inside Deep Zoom &ndash; Part III: Deep Zoom in Flash</a></li>
+            </ul>
+            
+        </div>
+        
+        
+    </div>
+    <div id="copyright"><p>&copy; 2007-2010, <a href="mailto:info@openzoom.org">OpenZoom.org</a>. All Rights Reversed.</p></div>
+</body>
+</html>

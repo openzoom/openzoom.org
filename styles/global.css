@@ -1,0 +1,95 @@
+body {
+	background: #FFF url("../images/background.png") top repeat-x;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 110%;
+	font-size-adjust: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 125%;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+	color: #334045;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #181A1C;
+}
+
+#content {
+	padding: 0;
+	margin: 0 auto;
+	max-width: 900px;
+    height: 100%;
+}
+
+#header {
+	height: 48px;
+	margin: 18px auto 10px;
+	padding: 0;
+	max-width: 900px;
+}
+
+#logo {
+	float: left;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+img a {
+	border: 0;
+}
+
+#globalnav {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+#globalnav li a {
+	float: right;
+	color: #444;
+	height: 24px;
+	padding: 18px 18px 6px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+#content h2 {
+    margin-top: 1.4em;
+}
+
+.tagline {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 38px;
+	line-height: 120%;
+	letter-spacing: -2px;
+	margin: 1em 0;
+}
+
+p.lead {
+	font-weight: bold;
+}
+
+#copyright {
+	font-size: 60%;
+	margin: 0 20px;
+	float: right;
+}
