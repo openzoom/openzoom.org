@@ -1,0 +1,7 @@
+RedirectMatch 302 ^/sdk/org/(.*) http://docs.openzoom.org/sdk/0.4.2/org/$1
+RedirectMatch 302 ^/sdk/?$ http://docs.openzoom.org/sdk/0.4.2/
+RedirectMatch ^/$ http://docs.openzoom.org/sdk/
+RedirectMatch 301 ^/framework$ http://docs.openzoom.org/sdk/
+RedirectMatch 301 ^/framework/$ http://docs.openzoom.org/sdk/
+RedirectMatch 301 ^/org/(.*) http://docs.openzoom.org/sdk/org/$1
+RedirectMatch 301 ^/framework/org/(.*) http://docs.openzoom.org/sdk/org/$1

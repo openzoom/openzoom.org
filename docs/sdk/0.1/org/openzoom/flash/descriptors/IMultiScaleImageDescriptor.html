@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../print.css" type="text/css" media="print">
+<meta content="IMultiScaleImageDescriptor,org.openzoom.flash.descriptors.IMultiScaleImageDescriptor,height,numLevels,origin,sources,tileHeight,tileOverlap,tileWidth,type,width,clone,existsTile,getLevelAt,getMinLevelForSize,getTileBounds,getTileURL" name="keywords">
+<title>org.openzoom.flash.descriptors.IMultiScaleImageDescriptor</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'IMultiScaleImageDescriptor - OpenZoom';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../index-list.html')" href="../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../index.html?org/openzoom/flash/descriptors/IMultiScaleImageDescriptor.html&amp;org/openzoom/flash/descriptors/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Interface&nbsp;IMultiScaleImageDescriptor</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Interface IMultiScaleImageDescriptor"); titleBar_setSubNav(false,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">org.openzoom.flash.descriptors</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Interface</td><td class="classSignature">public interface IMultiScaleImageDescriptor</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Implementors</td><td><a href="djatoka/DjatokaDescriptor.html">DjatokaDescriptor</a>, <a href="deepzoom/DZIDescriptor.html">DZIDescriptor</a>, <a href="gigapan/GigaPanDescriptor.html">GigaPanDescriptor</a>, <a href="openzoom/OpenZoomDescriptor.html">OpenZoomDescriptor</a>, <a href="zoomify/ZoomifyDescriptor.html">ZoomifyDescriptor</a></td>
+</tr>
+</table>
+<p></p>
+ Interface of a multiscale image descriptor.
+ <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#height">height</a> : uint<div class="summaryTableDescription">[read-only]
+     Returns the intrinsic height of the image in pixels.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#numLevels">numLevels</a> : int<div class="summaryTableDescription">[read-only]
+     Returns the number of levels of this object.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#origin">origin</a> : String<div class="summaryTableDescription">[read-only]
+     Returns the origin of the coordinate system for addressing tiles.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#sources">sources</a> : Array<div class="summaryTableDescription">[read-only]
+     Returns an array of IImageSourceDescriptor objects.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tileHeight">tileHeight</a> : uint<div class="summaryTableDescription">[read-only]
+     Returns the height of a single tile of the image pyramid in pixels.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tileOverlap">tileOverlap</a> : uint<div class="summaryTableDescription">[read-only]
+     Returns the tile overlap in pixels.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tileWidth">tileWidth</a> : uint<div class="summaryTableDescription">[read-only]
+     Returns the width of a single tile of the image pyramid in pixels.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#type">type</a> : String<div class="summaryTableDescription">[read-only]
+     Returns the mime-type of the image pyramid tiles, e.g.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#width">width</a> : uint<div class="summaryTableDescription">[read-only]
+     Returns the intrinsic width of the image in pixels.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#clone()">clone</a>():<a href="../descriptors/IMultiScaleImageDescriptor.html">IMultiScaleImageDescriptor</a>
+</div>
+<div class="summaryTableDescription">
+     Returns a copy of this object.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#existsTile()">existsTile</a>(level:int, column:uint, row:uint):Boolean</div>
+<div class="summaryTableDescription">
+     Returns a Boolean indicating if the tile at the given level, row and column exists.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#getLevelAt()">getLevelAt</a>(index:int):<a href="../descriptors/IMultiScaleImageLevel.html">IMultiScaleImageLevel</a>
+</div>
+<div class="summaryTableDescription">
+     Returns the image pyramid level that exists at the specified index.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#getMinLevelForSize()">getMinLevelForSize</a>(width:Number, height:Number):<a href="../descriptors/IMultiScaleImageLevel.html">IMultiScaleImageLevel</a>
+</div>
+<div class="summaryTableDescription">
+     Returns the minimum pyramid level that has a greater or equal size
+     than specified by the arguments width and height.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#getTileBounds()">getTileBounds</a>(level:int, column:uint, row:uint):Rectangle</div>
+<div class="summaryTableDescription">
+     Returns the bounds (position and dimensions) of the tile specified
+     by the level, column and row.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#getTileURL()">getTileURL</a>(level:int, column:uint, row:uint):String</div>
+<div class="summaryTableDescription">
+     Returns the URL of the tile specified by its level, column and row.</div>
+</td><td class="summaryTableOwnerCol">IMultiScaleImageDescriptor</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="height"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">height</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>height:uint</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the intrinsic height of the image in pixels.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get height():uint</code>
+<br>
+</div>
+<a name="numLevels"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">numLevels</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>numLevels:int</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the number of levels of this object.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get numLevels():int</code>
+<br>
+</div>
+<a name="origin"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">origin</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>origin:String</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the origin of the coordinate system for addressing tiles.
+          </p><p>The default value is <code>topLeft</code>.</p>
+<span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get origin():String</code>
+<br>
+</div>
+<a name="sources"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">sources</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>sources:Array</code>&nbsp;&nbsp;[read-only]<p>
+     Returns an array of IImageSourceDescriptor objects.
+     Returns empty array in case there are no descriptors.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get sources():Array</code>
+<br>
+</div>
+<a name="tileHeight"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tileHeight</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tileHeight:uint</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the height of a single tile of the image pyramid in pixels.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get tileHeight():uint</code>
+<br>
+</div>
+<a name="tileOverlap"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tileOverlap</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tileOverlap:uint</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the tile overlap in pixels.
+     </p><p>The default value is <code>0</code>.</p>
+<span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get tileOverlap():uint</code>
+<br>
+</div>
+<a name="tileWidth"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tileWidth</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tileWidth:uint</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the width of a single tile of the image pyramid in pixels.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get tileWidth():uint</code>
+<br>
+</div>
+<a name="type"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">type</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>type:String</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the mime-type of the image pyramid tiles, e.g. &lt;image/jpeg&gt; or &lt;image/png&gt;.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get type():String</code>
+<br>
+</div>
+<a name="width"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">width</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>width:uint</code>&nbsp;&nbsp;[read-only]<p>
+     Returns the intrinsic width of the image in pixels.
+     </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get width():uint</code>
+<br>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="clone()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">clone</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function clone():<a href="../descriptors/IMultiScaleImageDescriptor.html">IMultiScaleImageDescriptor</a></code><p>
+     Returns a copy of this object.
+     </p><p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../descriptors/IMultiScaleImageDescriptor.html">IMultiScaleImageDescriptor</a></code></td>
+</tr>
+</table>
+</div>
+<a name="existsTile()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">existsTile</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function existsTile(level:int, column:uint, row:uint):Boolean</code><p>
+     Returns a Boolean indicating if the tile at the given level, row and column exists.
+     </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">level</span>:int</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">column</span>:uint</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">row</span>:uint</code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Boolean</code></td>
+</tr>
+</table>
+</div>
+<a name="getLevelAt()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">getLevelAt</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function getLevelAt(index:int):<a href="../descriptors/IMultiScaleImageLevel.html">IMultiScaleImageLevel</a></code><p>
+     Returns the image pyramid level that exists at the specified index.
+     </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">index</span>:int</code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../descriptors/IMultiScaleImageLevel.html">IMultiScaleImageLevel</a></code></td>
+</tr>
+</table>
+</div>
+<a name="getMinLevelForSize()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">getMinLevelForSize</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function getMinLevelForSize(width:Number, height:Number):<a href="../descriptors/IMultiScaleImageLevel.html">IMultiScaleImageLevel</a></code><p>
+     Returns the minimum pyramid level that has a greater or equal size
+     than specified by the arguments width and height.
+     </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">width</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">height</span>:Number</code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code><a href="../descriptors/IMultiScaleImageLevel.html">IMultiScaleImageLevel</a></code></td>
+</tr>
+</table>
+</div>
+<a name="getTileBounds()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">getTileBounds</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function getTileBounds(level:int, column:uint, row:uint):Rectangle</code><p>
+     Returns the bounds (position and dimensions) of the tile specified
+     by the level, column and row.
+     </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">level</span>:int</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">column</span>:uint</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">row</span>:uint</code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Rectangle</code></td>
+</tr>
+</table>
+</div>
+<a name="getTileURL()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">getTileURL</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function getTileURL(level:int, column:uint, row:uint):String</code><p>
+     Returns the URL of the tile specified by its level, column and row.
+     </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">level</span>:int</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">column</span>:uint</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">row</span>:uint</code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5667667-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div>
+</body>
+</html>
+<!-- -->

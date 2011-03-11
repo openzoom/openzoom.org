@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../print.css" type="text/css" media="print">
+<meta content="MultiScaleImage,org.openzoom.flex.components.MultiScaleImage,source" name="keywords">
+<title>org.openzoom.flex.components.MultiScaleImage</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'MultiScaleImage - OpenZoom';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../index-list.html')" href="../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../index.html?org/openzoom/flex/components/MultiScaleImage.html&amp;org/openzoom/flex/components/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;MultiScaleImage</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class MultiScaleImage"); titleBar_setSubNav(true,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">org.openzoom.flex.components</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public final  class MultiScaleImage</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">MultiScaleImage <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> <a href="MultiScaleImageBase.html">MultiScaleImageBase</a> <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> mx.core.UIComponent</td>
+</tr>
+</table>
+<p></p>
+ Flex component for displaying a single multi-scale image.
+ Inspired by the <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.multiscaleimage(VS.95).aspx">
+ Microsoft Silverlight Deep Zoom MultiScaleImage control.</a>
+ This implementation has built-in support for Zoomify, Deep Zoom and OpenZoom images.
+ Basic keyboard and mouse navigation can be added by specifying viewport controllers through the <code>controllers</code> property.
+ The animation can be customized by adding a viewport transformer through the <code>transformer</code> property.
+ Zoom, visibility or custom constraints can be added through the <code>constraint</code> property.
+ <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<div class="showHideLinks">
+<div class="hideInheritedProperty" id="hideInheritedProperty">
+<a onclick="javascript:setInheritedVisible(false,'Property');" href="#propertySummary" class="showHideLink"><img src="../../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Public Properties</a>
+</div>
+<div class="showInheritedProperty" id="showInheritedProperty">
+<a onclick="javascript:setInheritedVisible(true,'Property');" href="#propertySummary" class="showHideLink"><img src="../../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Public Properties</a>
+</div>
+</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#constraint">constraint</a> : <a href="../../flash/viewport/IViewportConstraint.html">IViewportConstraint</a>
+<div class="summaryTableDescription">
+     Viewport transformer constraint.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#controllers">controllers</a> : Array<div class="summaryTableDescription">
+     Controllers of type IViewportController applied to this MultiScaleImage.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#numChildren">numChildren</a> : int<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#scale">scale</a> : Number<div class="summaryTableDescription">
+     Scale of the scene.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#sceneHeight">sceneHeight</a> : Number<div class="summaryTableDescription">
+     Indicates the height of the scene, in pixels.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#sceneWidth">sceneWidth</a> : Number<div class="summaryTableDescription">
+     Indicates the width of the scene, in pixels.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#source">source</a> : Object<div class="summaryTableDescription">
+     Source of this image.</div>
+</td><td class="summaryTableOwnerCol">MultiScaleImage</td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#transformer">transformer</a> : <a href="../../flash/viewport/IViewportTransformer.html">IViewportTransformer</a>
+<div class="summaryTableDescription">
+     Viewport transformer.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#viewport">viewport</a> : <a href="../../flash/viewport/INormalizedViewport.html">INormalizedViewport</a>
+<div class="summaryTableDescription">
+     Viewport of this image.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#viewportHeight">viewportHeight</a> : Number<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#viewportWidth">viewportWidth</a> : Number<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#viewportX">viewportX</a> : Number<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#viewportY">viewportY</a> : Number<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#zoom">zoom</a> : Number<div class="summaryTableDescription">
+     Zoom level of the viewport.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+</table>
+</div>
+<a name="protectedPropertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Protected Properties</div>
+<div class="showHideLinks">
+<div class="hideInheritedProtectedProperty" id="hideInheritedProtectedProperty">
+<a onclick="javascript:setInheritedVisible(false,'ProtectedProperty');" href="#protectedPropertySummary" class="showHideLink"><img src="../../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Protected Properties</a>
+</div>
+<div class="showInheritedProtectedProperty" id="showInheritedProtectedProperty">
+<a onclick="javascript:setInheritedVisible(true,'ProtectedProperty');" href="#protectedPropertySummary" class="showHideLink"><img src="../../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Protected Properties</a>
+</div>
+</div>
+<table id="summaryTableProtectedProperty" class="summaryTable hideInheritedProtectedProperty" cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="hideInheritedProtectedProperty">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#container">container</a> : <a href="../components/MultiScaleContainer.html">MultiScaleContainer</a>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<div class="showHideLinks">
+<div class="hideInheritedMethod" id="hideInheritedMethod">
+<a onclick="javascript:setInheritedVisible(false,'Method');" href="#methodSummary" class="showHideLink"><img src="../../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Public Methods</a>
+</div>
+<div class="showInheritedMethod" id="showInheritedMethod">
+<a onclick="javascript:setInheritedVisible(true,'Method');" href="#methodSummary" class="showHideLink"><img src="../../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Public Methods</a>
+</div>
+</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#MultiScaleImage()">MultiScaleImage</a>()</div>
+<div class="summaryTableDescription">
+     Constructor.</div>
+</td><td class="summaryTableOwnerCol">MultiScaleImage</td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#addChild()">addChild</a>(child:DisplayObject):DisplayObject</div>
+<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#localToScene()">localToScene</a>(point:Point):Point</div>
+<div class="summaryTableDescription">
+     Converts the point object from the viewport's
+     container (local) coordinates to scene coordinates.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#panBy()">panBy</a>(deltaX:Number, deltaY:Number, immediately:Boolean = false):void</div>
+<div class="summaryTableDescription">
+     Move the viewport.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#panTo()">panTo</a>(x:Number, y:Number, immediately:Boolean = false):void</div>
+<div class="summaryTableDescription">
+     Move the viewport.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#removeChild()">removeChild</a>(child:DisplayObject):DisplayObject</div>
+<div class="summaryTableDescription">
+     </div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#sceneToLocal()">sceneToLocal</a>(point:Point):Point</div>
+<div class="summaryTableDescription">
+     Converts the point object from scene coordinates
+     to the viewport's container (local) coordinates.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#showAll()">showAll</a>(immediately:Boolean = false):void</div>
+<div class="summaryTableDescription">
+     Fit entire scene into the viewport.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#zoomBy()">zoomBy</a>(factor:Number, transformX:Number = 0.5, transformY:Number = 0.5, immediately:Boolean = false):void</div>
+<div class="summaryTableDescription">
+     Zoom the viewport by a factor.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#zoomTo()">zoomTo</a>(zoom:Number, transformX:Number = 0.5, transformY:Number = 0.5, immediately:Boolean = false):void</div>
+<div class="summaryTableDescription">
+     Zoom the viewport to a zoom level z.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+<tr class="hideInheritedMethod">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="MultiScaleImageBase.html#zoomToBounds()">zoomToBounds</a>(bounds:Rectangle, scale:Number = 1.0, immediately:Boolean = false):void</div>
+<div class="summaryTableDescription">
+     Show a rectangular area of the scene inside the viewport.</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+</table>
+</div>
+<a name="constantSummary"></a><a name="protectedConstantSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Protected Constants</div>
+<div class="showHideLinks">
+<div class="hideInheritedProtectedConstant" id="hideInheritedProtectedConstant">
+<a onclick="javascript:setInheritedVisible(false,'ProtectedConstant');" href="#protectedConstantSummary" class="showHideLink"><img src="../../../../images/expanded.gif" class="showHideLinkImage"> Hide Inherited Protected Constants</a>
+</div>
+<div class="showInheritedProtectedConstant" id="showInheritedProtectedConstant">
+<a onclick="javascript:setInheritedVisible(true,'ProtectedConstant');" href="#protectedConstantSummary" class="showHideLink"><img src="../../../../images/collapsed.gif" class="showHideLinkImage"> Show Inherited Protected Constants</a>
+</div>
+</div>
+<table id="summaryTableProtectedConstant" class="summaryTable hideInheritedProtectedConstant" cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="hideInheritedProtectedConstant">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol"><img class="inheritedSummaryImage" title="Inherited" alt="Inherited" src="../../../../images/inheritedSummary.gif"></td><td class="summaryTableSignatureCol"><a class="signatureLink" href="MultiScaleImageBase.html#DEFAULT_SCENE_DIMENSION">DEFAULT_SCENE_DIMENSION</a> : Number = 16384<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol"><a href="MultiScaleImageBase.html">MultiScaleImageBase</a></td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="source"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">source</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>source:Object</code>&nbsp;&nbsp;[read-write]<p>
+     Source of this image. Either a URL as String or an
+     instance of IMultiScaleImageDescriptor.
+          </p><p>This property can be used as the source for data binding.</p>
+<span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get source():Object</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set source(value:Object):void</code>
+<br>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../../flash/descriptors/IMultiScaleImageDescriptor.html" target="">org.openzoom.flash.descriptors.IMultiScaleImageDescriptor</a>
+</div>
+</div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="MultiScaleImage()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">MultiScaleImage</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function MultiScaleImage()</code><p>
+     Constructor.
+     </p></div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5667667-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div>
+</body>
+</html>
+<!-- -->
