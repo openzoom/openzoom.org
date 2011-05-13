@@ -21,6 +21,7 @@ Redirect 302 /go/issues http://github.com/openzoom/sdk/issues
 
 # OpenZoom SDK
 Redirect 302 /sdk/download/latest/zip http://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip
+Redirect 302 /sdk/download/0.4.3/zip http://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip
 Redirect 302 /sdk/download/0.4.2.1/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.1.zip
 Redirect 302 /sdk/download/0.4.2/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.zip
 Redirect 302 /sdk/download/0.4.2.1/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.1.zip
