@@ -1,0 +1,3 @@
+#!/bin/bash
+
+dotcloud push -b develop openzoom.www . && dotcloud restart openzoom.www
