@@ -76,6 +76,14 @@ img a {
     margin-top: 1.4em;
 }
 
+.notice {
+    font-weight: bold;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 1.6em;
+    padding: 0.8em;
+}
+
 .tagline {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 38px;
