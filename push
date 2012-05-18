@@ -1,3 +1,0 @@
-#!/bin/bash
-
-dotcloud push -b master openzoom.www . && dotcloud restart openzoom.www

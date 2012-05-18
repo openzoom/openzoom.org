@@ -1,0 +1,3 @@
+#!/bin/bash
+
+dotcloud push openzoom . && dotcloud restart openzoom.www
