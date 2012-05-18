@@ -1,0 +1,4 @@
+#!/bin/bash
+
+dotcloud alias add openzoom.www www.openzoom.org
+dotcloud alias add openzoom.www docs.openzoom.org
