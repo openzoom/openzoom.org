@@ -1,9 +1,5 @@
 # Mac OS
 .DS_Store
 
-# Webbynode
-.webbynode/
-.pushand
-
 # TODO
 cla/
