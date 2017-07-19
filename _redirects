@@ -5,53 +5,48 @@
 #     rewrite ^/sdk/?$ http://www.openzoom.org/sdk/api/ permanent;
 #     break;
 # }
-# 
-# 
-# # Community
-# rewrite ^/go/community http://community.openzoom.org redirect;
-# 
-# 
-# # Code
-# rewrite ^/go/code http://github.com/openzoom redirect;
-# 
-# 
-# # Docs
-# rewrite ^/sdk/api/?$ http://www.openzoom.org/sdk/api/0.4.2/ redirect;
-# 
-# 
-# # Issues
-# rewrite ^/go/issues http://github.com/openzoom/sdk/issues redirect;
-# 
-# 
-# # Downloads
-# 
-# ## GigaPan Desktop
-# rewrite ^/projects/gigapan/GigaPanDesktop.air http://open-zoom.googlecode.com/files/GigaPanDesktop-0.2.air redirect;
-# rewrite ^/go/gigapan http://open-zoom.googlecode.com/files/GigaPanDesktop-0.2.air redirect;
-# 
-# ## OpenZoom SDK
-# rewrite ^/sdk/download/latest/zip http://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip redirect;
-# rewrite ^/sdk/download/0.4.3/zip http://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip redirect;
-# rewrite ^/sdk/download/0.4.2.1/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.1.zip redirect;
-# rewrite ^/sdk/download/0.4.2/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.zip redirect;
-# rewrite ^/sdk/download/0.4.2.1/zip http://open-zoom.googlecode.com/files/openzoom-sdk-0.4.2.1.zip redirect;
-# 
-# ## OpenZoom Tango
-# rewrite ^/tango/download/latest/zip http://github.com/downloads/openzoom/tango/openzoom-tango-0.7.1.zip redirect;
-# rewrite ^/tango/download/0.7.1/zip http://github.com/downloads/openzoom/tango/openzoom-tango-0.7.1.zip redirect;
-# rewrite ^/tango/download/0.5.2/zip http://open-zoom.googlecode.com/files/openzoom-tango-0.5.2.zip redirect;
-# rewrite ^/tango/download/0.3/zip http://open-zoom.googlecode.com/files/openzoom-tango-0.3.zip redirect;
-# rewrite ^/tango/download/0.2.1/zip http://open-zoom.googlecode.com/files/openzoom-tango-0.2.1.zip redirect;
-# 
-# ## Zoom.it ActionScript 3 SDK
-# rewrite ^/zoomit-as3-sdk/download/latest/zip http://github.com/downloads/openzoom/zoomit-as3-sdk/zoomit-as3-sdk-0.8.zip redirect;
-# rewrite ^/zoomit-as3-sdk/download/0.8/zip http://github.com/downloads/openzoom/zoomit-as3-sdk/zoomit-as3-sdk-0.8.zip redirect;
-# 
-# ## Projects
-# rewrite ^/projects/monad http://openzoom.org/monad permanent;
-# rewrite ^/projects/dourado http://openzoom.org/dourado permanent;
-# rewrite ^/projects/taishet http://gasi.ch/blog/inline-multiscale-image-replacement/ redirect;
-# rewrite ^/taishet http://gasi.ch/blog/inline-multiscale-image-replacement/ redirect;
-# rewrite ^/endo http://gasi.ch/blog/inline-multiscale-image-replacement/ redirect;
-# rewrite ^/tango http://gasi.ch/blog/pimp-your-photoshop-zoomify-with-openzoom/ redirect;
-# rewrite ^/specs http://gasi.ch/blog/openzoom-description-format/ redirect;
+#
+
+# Code
+/go/code https://github.com/openzoom 302
+
+# Docs
+/sdk/api https://www.openzoom.org/sdk/api/0.4.2/ 302
+
+ # Issues
+/go/issues https://github.com/openzoom/sdk/issues 302
+
+
+# Downloads
+
+## GigaPan Desktop
+/projects/gigapan/GigaPanDesktop.air https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/GigaPanDesktop-0.2.air 302
+/go/gigapan https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/GigaPanDesktop-0.2.air 302
+
+## OpenZoom SDK
+/sdk/download/latest/zip https://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip 302
+/sdk/download/0.4.3/zip https://github.com/downloads/openzoom/sdk/openzoom-sdk-0.4.3.zip 302
+/sdk/download/0.4.2.1/zip https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/openzoom-sdk-0.4.2.1.zip 302
+/sdk/download/0.4.2/zip https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/openzoom-sdk-0.4.2.zip 302
+/sdk/download/0.4.2.1/zip https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/openzoom-sdk-0.4.2.1.zip 302
+
+## OpenZoom Tango
+/tango/download/latest/zip https://github.com/downloads/openzoom/tango/openzoom-tango-0.7.1.zip 302
+/tango/download/0.7.1/zip https://github.com/downloads/openzoom/tango/openzoom-tango-0.7.1.zip 302
+/tango/download/0.5.2/zip https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/openzoom-tango-0.5.2.zip 302
+/tango/download/0.3/zip https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/openzoom-tango-0.3.zip 302
+/tango/download/0.2.1/zip https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/open-zoom/openzoom-tango-0.2.1.zip 302
+
+## Zoom.it ActionScript 3 SDK
+/zoomit-as3-sdk/download/latest/zip https://github.com/downloads/openzoom/zoomit-as3-sdk/zoomit-as3-sdk-0.8.zip 302
+/zoomit-as3-sdk/download/0.8/zip https://github.com/downloads/openzoom/zoomit-as3-sdk/zoomit-as3-sdk-0.8.zip 302
+
+
+## Projects
+/projects/monad https://openzoom.org/monad 301
+/projects/dourado https://openzoom.org/dourado 301
+/projects/taishet https://gasi.ch/blog/inline-multiscale-image-replacement/ 302
+/taishet https://gasi.ch/blog/inline-multiscale-image-replacement/ 302
+/endo https://gasi.ch/blog/inline-multiscale-image-replacement/ 302
+/tango https://gasi.ch/blog/pimp-your-photoshop-zoomify-with-openzoom/ 302
+/specs https://gasi.ch/blog/openzoom-description-format/ 302
